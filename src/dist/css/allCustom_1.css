@@ -1,0 +1,548 @@
+.tempatediv{
+    margin-top: -2%;
+  }
+  .headerdiv{
+    display: flex;
+    justify-content: space-between;
+  }
+  .accordion{
+    --bs-accordion-border-color:none;
+  }
+  .accordion-button{
+    background-color: #e2e3e5;
+  }
+  
+  .accordion-button{
+    width: 379px;
+    margin-left: -8%;
+    padding: 0.5rem 1rem !important;
+  }
+  .accordion-header{
+    margin-top: 10px;
+  }
+  .accordion-button:not(.collapsed){
+    color: black!important;
+    background-color: #e2e3e5!important;
+  }
+  :root{
+  --slide-1: url(../webImages/justcall-logo.webp) ;
+  }
+  .accordion-button::after {
+    background-image: none !important;
+   content: "+";
+   font-size: 20px;
+   font-weight: bold;
+  }
+  .accordion-button:not(.collapsed)::after {
+    background-image: none !important;
+    content: "-";
+    font-size: 20px;
+   font-weight: bold;
+  }
+  .fa,.fa-close{
+    cursor: pointer;
+  }
+  .Main-div{
+padding: 20px;
+  }
+  .signmodal{
+    color: #00A9BD;
+    cursor: pointer;
+  }
+  .signmodal:hover{
+    color:#0056b3;
+  }
+  .attributemodal{
+    color: #00A9BD;
+    cursor: pointer;
+  }
+  .attributemodal:hover{
+    color:#0056b3;
+  }
+  .textareainput{
+    width: 450px;
+    height: 200px;
+  }
+  .savebutton{
+    margin-top: 3%;
+  }
+  .file2div{
+    background-color: #0C3764 !important;
+    color: white ;
+    width: 100% !important;
+    position: relative !important;
+    bottom: -9px !important;
+    right: 0px !important;
+    border: 1px solid #DDD;
+    z-index: 9 !important;
+    background: #0C3764 !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+
+  }
+  .fileinnerdiv{
+    display: flex;
+    justify-content: space-between;
+  }
+  .file2upload{
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    height: 300px;
+  }
+  .file2upload img {
+    max-height: 300px;
+  }
+/* .my-2{
+  margin-top: -0.3rem !important;
+} */
+.tag{
+  color: white;
+}
+.card-collapsed .card-options-collapse i:before{
+  content: "\e92d";
+}
+.fe-maximize:before {
+  content: "\e98b";
+}
+
+.card-fullscreen .card-options-fullscreen > i:before {
+    content: "\e992";
+}
+.select-cus{
+  width: 107px !important;
+}
+.select-cus1{
+  width: 200px !important;
+}
+@media only screen and (min-width: 990px) {
+  .editselect {
+    margin-left:-7%;
+  }
+}
+.cus-menushow{
+  width: 242px;
+  padding-left: 27px;
+}
+.menubutton{
+  width: 180px !important;
+}
+
+/* appointment calender main  */
+.appointment_calender_main{
+height: 100vh;
+background-color: #283041;
+overflow-y: scroll;
+}
+
+.calender_white_card{
+  width: 730px;
+  height: auto;
+  background-color: white;
+
+margin: 20px auto;  
+}
+
+.calender_white_card_left>div{
+height: 100%;
+}
+
+.non-highlighted-date {
+  pointer-events: none;
+  opacity: 0.5;
+}
+.react-datepicker{
+  width: 100%;
+  height: 100%;
+  border-radius: 0 !important;
+}
+.react-datepicker__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: white !important;
+  padding: 2 0 !important;
+}
+.react-datepicker__navigation{
+top: 8px !important;
+}
+
+.react-datepicker__current-month{
+ 
+  margin-left: 10px;
+}
+.react-datepicker__navigation--previous{
+    right: 27px !important  ;
+    left: auto !important;
+}
+.react-datepicker__day {
+  cursor: default !important;
+  width: 13% !important;
+color: #808488 !important;
+}
+.react-datepicker__day-name{
+  cursor: pointer;
+  width: 13% !important
+}
+.react-datepicker,.react-datepicker__day-names{
+  width: 100%;
+}
+.react-datepicker__month-container{
+  height: 100%;
+  width: 100%;
+}
+.current_date_class  .react-datepicker__day--keyboard-selected{
+  background-color:  #00b2ff !important;
+  cursor: pointer !important;
+  color: #d2effc!important;
+}
+.react-datepicker__day--highlighted{
+  background-color: #d2effc !important;
+  cursor: pointer !important;
+  color: #00b2ff !important;
+}
+.react-datepicker__header{
+  border-bottom: none !important;
+}
+.react-datepicker__day-name {
+color: #808488 !important;
+
+}
+.react-datepicker__current-month{
+  color: #808488 !important;
+margin-left: 20px !important;
+text-transform: uppercase;
+font-size: 1rem !important;
+}
+.doubelInput{
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+ul.right_chat .span_loader {
+  position: relative;
+}
+.display{
+  position: absolute;
+  bottom: 9px;
+  left: 19%;
+}
+.mergediv{
+  margin-top: 33px;
+}
+.mylist{
+  width: 40% !important;
+}
+.new-collapsedAction{
+  align-items: center !important;
+  justify-content: center !important;
+}
+.view_signin_signout{
+cursor: pointer;
+margin-left: 10px;
+background-color: #0056b3;
+color: #DDD;
+}
+.myclass{
+  width: 78% !important;
+}
+.actionButton{
+  height: 35px;
+}
+.hrBorder{
+height:2px;
+width:100%;
+border-width:0;
+color:#1c70ca; 
+background-color:#1B5089
+}
+.none .dropdown-toggle::after {
+  visibility: hidden;
+}
+.myIcon{
+  width: 90% !important;
+}
+.nxs{
+  cursor: pointer;
+}
+.dropdown-divider{
+  display: none;
+}
+
+.dropdown-menu .dropdown-item:hover{
+  color: #19191a !important;
+}
+/* .dropdown-toggle::after{
+  display: none;
+} */
+.bg-red1{
+  background-color: red !important;
+}
+.mfollowups ul li{
+  border-bottom: solid 1px #d7d7d7;
+  padding: 5px;
+}
+.right_chat li{
+  background: #f8f9fa;
+  border-radius: 3px;
+  padding: 10px;
+  position: relative;
+}
+.right_chat li:hover{
+  background: #f8f9fa;
+  border-radius: 3px;
+  padding: 10px;
+  position: relative;
+}
+.meeting_notes li img {
+border-radius: 4% !important;
+}
+.my_tabs{
+  margin-top: 20px;
+}
+.my_labels{
+  width: 90%;
+}
+.margin_left{
+  margin-left: 5px;
+}
+.nxss{
+  margin-left: 5px;
+}
+.dashsymbol{
+  color: #808488;
+}
+.bookingmobileheading{
+  justify-content: center !important;
+}
+.react-datepicker__day{
+     /* padding-top: 10px; */
+     width: 50.8px !important;
+     height: 50.8px !important;
+     border-radius: 50px !important;
+     font-size: 14px;
+     font-weight: 700;
+     display: grid !important;
+     place-content: center;
+}
+@media only screen and (max-width: 920px) {
+  .calender_white_card {
+    display: block;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .calender_white_card {
+    width: 100%;
+  }
+}
+.correl_cross{
+  position: absolute;
+  right: 0;
+top: 0;
+cursor: pointer;
+}
+.correl_cross:hover{
+  background-color: #dfe0e2;
+}
+.togels-my_btn{
+  background-color: transparent;
+  width: 100%;
+  text-align: left;
+  box-shadow: none !important;
+  border: none !important;
+  outline: none !important;
+  height: 40px;
+  color: #19191a;
+  font-size: 15px;
+}
+.mag_lef{
+  padding-left: 5px;
+}
+.upButton_mod{
+  background-color: rgb(162, 218, 162);
+  box-shadow: none !important;
+}
+.dwnButton_mod{
+  background-color: #eeeeeeda;
+  box-shadow: none !important;
+}
+.lightBlack_color{
+  color: #a3a2a2c2;
+}
+/* .App {
+  text-align: center;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1.5vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.characters {
+  list-style: none;
+  padding-left: 0;
+}
+
+.characters li {
+  display: flex;
+  align-items: center;
+  border: solid 2px #d0d0d0;
+  border-radius: .2em;
+  padding: .5em .8em .5em .5em;
+  margin-bottom: 1em;
+}
+
+.characters p {
+  max-width: none;
+  font-weight: bold;
+  margin: 0;
+}
+
+.characters-thumb {
+  overflow: hidden;
+  flex-shrink: 0;
+  width: 2em;
+  height: 2em;
+  background-color: #e8e8e8;
+  padding: .5em;
+  margin-right: .5em;
+}
+
+.characters-thumb img {
+  display: block;
+  width: 100%;
+  height: auto;
+} */
+
+.react-datepicker__current-month, .react-datepicker-time__header, .react-datepicker-year-header {
+  color: #636363;
+  font-weight: 500;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  text-align: left;
+  display: inline-block;
+}
+
+.react-datepicker {
+  border-color: transparent !important;
+}
+.flowBooking__right {
+  border-left: 1px solid #ddd;
+  padding: 20px 15px !important; 
+}
+.react-datepicker__day-names {
+  margin-top: 2rem;
+}
+
+.react-datepicker__day-name {
+  color: #6c6c6c;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+}
+.react-datepicker__header {
+border-color: transparent;
+}
+
+.react-datepicker__week {
+  display: flex;
+}
+.ulList{
+  width: 400px !important;
+}.displayBlock {
+  display: block;
+}
+.margin_gap{
+  margin-left: 10px;
+  margin-right: 5px;
+}.pointer{
+  cursor: pointer;
+  color: red;
+}
+.margin_bottom{
+  margin-bottom: 10px;
+}
+
+.react-datepicker__month {
+  margin: 0;
+}.card_margin_left{
+  margin-left: 10px;
+}
+.media_image_height{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.myimg{
+  width: 100%;
+  height: 100%;
+}
+.marginBottomSelect{
+  margin-bottom: 20px;
+}
+.antd-segment-select .ant-select-selector{
+height: 38px !important;
+}
+.automation_switch .ant-switch-inner {
+    background-color: #5d5f5e ;
+}
+
+.automation_switch1 .ant-switch-inner {
+  background-color:#50CD89;
+}
+.menu_option.float-right { cursor: pointer;}
+.site_tracking_tabs1{
+  display: none !important;
+}
+.site_tracking_tabs1.show{
+  display: flex !important;
+}
+.site_tracking_tabs2{
+  display: none !important;
+}
+.site_tracking_tabs2.show{
+  display: block !important;
+}
+.siteTrack_card{
+  width: 250px;
+  height: 220px;
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+/* .siteTrack_card .card_heading{
+  height: 20px;
+}  */
+.siteTrack_card h6 {
+  display: inline-block; /* or inline */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; 
+  height: 20px;
+  width: 220px;
+}

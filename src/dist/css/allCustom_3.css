@@ -1,0 +1,61 @@
+.right_chat_vl a.cc_cls {
+  color: #d7d7d7;
+  margin-top: 2px;
+  margin-right: 7px;
+  right: 0;
+  top: 0;
+  position: absolute;
+  font-size: 13px;
+}
+ul.pagination {
+  display: flex;
+  margin: 1rem 0;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+
+ul.pagination li a {
+  background: #ddd;
+  padding: 0.4rem 1rem;
+  display: block;
+}
+
+li.page-item.disabled a {
+  filter: blur(1px);
+  cursor: not-allowed;
+}
+
+li.page-item.active a {
+  background: #000;
+  color: #fff;
+}
+.custom-width-ant-range .ant-space-item,
+.custom-width-ant-range .ant-picker-range,
+.custom-width-ant-range .ant-space{
+  width: 100%
+}
+
+.time-picker .ant-picker{
+  width: 100%!important;
+}
+
+.time-picker1 .ant-picker{
+  width: 100%!important;
+}
+.export-main-tab ul{
+  padding-left: -1rem!important;
+}
+
+.export-tab{
+  list-style: none!important;
+}
+.ant-picker-input > input {
+  cursor: pointer;
+}
+.heigth-40{
+  height: 40px;
+}
+
+.ant-picker-dropdown {
+  z-index: 10000;
+}
